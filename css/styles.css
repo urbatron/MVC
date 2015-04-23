@@ -1,0 +1,33 @@
+/* RESET STYLES */
+
+.content table { border-collapse:collapse; border-spacing:0 }
+.content fieldset, img { border:0; }
+.content address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+.content ol, ul, li { list-style:none }
+.content caption, th { text-align:left }
+.content h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+.content q:before, q:after { content:''}
+.content strong { font-weight: bold }
+.content em { font-style: italic }
+.content .aligncenter { display:block; margin:0 auto }
+.content .alignleft { float:left }
+.content .alignright { float:right }
+.content div { position:relative } 
+/* END RESET STYLES */
+
+
+html{-webkit-font-smoothing:antialiased;}
+.content a{color:#65a42d;text-decoration:none;}
+.content a:hover{color:#65a42d; text-decoration:underline;}
+.content .column-clear{ clear:both;}
+.content .portfolio-content, .portfolio-area{width:1000px;}
+
+/**** PORTFOLIO STYLES*****/
+.content .portfolio-categ{margin-bottom:30px;}
+.content .portfolio-categ li{display:inline;margin-right:10px;}
+.content .image-block{ display:block;position: relative;}
+.content .image-block img{border: 1px solid #d5d5d5; border-radius: 4px 4px 4px 4px;background:#FFFFFF;padding:10px;}
+.content .image-block img:hover{border: 1px solid #A9CF54;box-shadow:0 0 5px #A9CF54;}
+.content .portfolio-area li{float: left;margin: 0 5px 10px 0px;overflow: hidden;width: 180px;padding:5px;}
+.content li.active a{ text-decoration:underline;}
+/**** END PORTFOLIO STYLES*****/
